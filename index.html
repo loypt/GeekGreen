@@ -1,0 +1,406 @@
+<!doctype html>
+<html> 
+<!--主页
+created by：susmote-->
+<head>
+<meta charset="utf-8">
+<title>GeekGreen_环保从这开始</title>
+<link rel="icon" type="image/x-icon" href="images/logo.ico"/><!--图标插入-->
+<link rel="stylesheet" type="text/css" href="css/reset.css"/><!--css样式导入-->
+<link rel="stylesheet" type="text/css" href="css/main.css"/><!--css样式导入-->
+<link href="font-awesome-4.7.0/css/font-awesome.min.css" rel="stylesheet"><!--导入矢量图库-->
+</head>
+
+<body>
+	<!--头部开始-->
+	<header>
+	<!--------------登录页面------------------->
+  <div class="log-div1" id="light">
+        <a class="log-left" onclick = "closeDialog()"><i class="fa fa-close fa-1x"></i></a>
+        <h1 class="log-title">登录</h1>
+        <br>
+        <center>
+      <div class="">
+        <form action="indexlog.html" class="form1">
+          <div class="log-text">
+            <span class="yonghu"><i class="fa fa-user-circle fa-1x"></i></span><input type="email" class="main-input" placeholder="电子邮箱" required/>
+          </div>
+          <div class="log-text">
+            <span class="mima"><i class="fa fa-lock fa-1x"></i></span><input type="password" class="main-input" placeholder="登录密码" required/>
+          </div>
+          <div class="form-group">
+           &nbsp;
+            <input type="submit" class="but1" value="立刻登录" onclick="alert('恭喜你登录成功！！！')"/>
+            &nbsp;
+            <input type="button" class="but1" value="找回密码" onclick="alert('此项功能暂未开放给用户！！！')"/>
+          </div>
+          <br>
+          <p>社交账号登录<hr></p>
+          <i class="fa fa-qq fa-2x"></i>&nbsp;&nbsp;&nbsp;&nbsp;
+          <i class="fa fa-wechat fa-2x"></i>&nbsp;&nbsp;&nbsp;&nbsp;
+          <i class="fa fa-renren fa-2x"></i>
+        </form>
+		  
+      </div>
+	  </center>
+      <div class="modal-footer">
+        
+      </div>
+  </div>
+        <div id="fade" class="black_overlay"></div>
+     <!--------------end------------------->   
+     <!--------------注册页面------------------->
+      <div class="log-div2" id="signin">
+        <a class="log-left" onclick = "closeDiasign()"><i class="fa fa-close fa-1x"></i></a>
+        <h1 class="log-title">注册</h1>
+        <br>
+        <center>
+      <div class="">
+        <form action="index.html" class="form2">
+        <i class="fa fa-user-o fa-3x"></i> <br><br>
+            用户昵称：<input type="text" class="main-input1" name="username" placeholder="请输入你的昵称">
+          <div>
+           <br>
+            性别：&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="radio" name="sex" value="female"><i class="fa fa-venus fa-1x"></i>
+           	 		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;   
+         	 <input type="radio" name="sex" value="male"><i class="fa fa-mars fa-1x"></i>
+         	 </div>
+         	 <div class="sign-text">
+        <br>  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;上传头像:<input type="file" name="photo" id="photo">
+          	</div>
+          	<br>
+			<div>
+            电子邮箱：<input type="email" class="main-input1" name="useremail" placeholder="请输入电子邮箱">
+            </div>
+            <br>
+            <div>
+            用户密码：<input type="password" name="password" class="main-input1" placeholder="请输入用户密码">
+            </div>
+            <br>
+          <div>
+            确认密码：<input type="password" class="main-input1" placeholder="请确认你的密码" required>
+		  </div>
+          <div class="form-group">
+           &nbsp;
+            <input type="submit" class="but1" value="立刻注册"/>
+          </div>
+        </form>
+		  
+      </div>
+	  </center>
+      <div class="modal-footer">
+        
+      </div>
+  </div>
+        <div id="fader" class="black_overlay"></div>
+    <!--------------end------------------->
+		<div class="main-top">
+		<span class="top-title">欢迎来到极客环保网</span>
+			<span class="top-log">
+				<a class="top-log" href="#" onclick="alert('非常抱歉，您选择的功能我们暂未开发成功')"><i class="fa fa-question-circle fa-1x">&nbsp;帮助</i></a>
+				<a class="top-log" href="#" onclick="openDiasign()"><i class="fa fa-user-plus fa-1x">&nbsp;注册</i></a>
+				<a class="top-log" href = "#" onclick = "openDialog()"><i class="fa fa-user fa-1x">&nbsp;登录</i></a>
+			</span>
+		</div>
+		
+		<div class="main-logo">
+			<a href="index.html"><img class="logo-pos" src="images/logo.png"/></a>
+			<div class="main-search" id="searchform">
+  				<input type="text" id="searchterm" placeholder="请输入搜索关键词..." />
+ 			 	<button type="button" id="search"><a href="https://www.baidu.com/" target="_blank" onclick="alert('非常抱歉，您选择的功能我们暂未开发成功,即将为您跳转百度搜索')">搜索</a></button>
+			</div>
+		</div>
+		<div class="main-nav">
+			<div class="left">
+				<ul>
+					<li><a href="#" class="active"><span>主页</span></a></li>
+					<li><a href="niceeco.html"><span>美丽生态</span></a></li>
+					<li><a href="policy.html"><span>环保政策</span></a></li>
+					<li><a href="commonweal.html"><span>公益项目</span></a></li>
+					<li><a href="product.html"><span>环保产品</span></a></li>
+					<li class="last"><a href="about.html"><span>关于我们</span></a></li>
+				</ul>
+			</div>
+		</div>
+	</header>
+<div class="container">
+	<div class="clearfix">
+		<div class="img">
+			<ul class="nav">
+				<li><a href="#" target="_blank"><img src="images/4.jpg"></a></li>
+				<li><a href="#" target="_blank"><img src="images/li2.jpg"></a></li>
+				<li><a href="#" target="_blank"><img src="images/0.jpg"></a></li>
+				<li><a href="#" target="_blank"><img src="images/li1.jpg"></a></li>
+				<li><a href="#" target="_blank"><img src="images/3.jpg"></a></li>
+			</ul>
+
+			<div class="bg">
+				<ul class="bg_in">
+					<li>1</li>
+					<li>2</li>
+					<li>3</li>
+					<li>4</li>
+					<li>5</li>
+					<li id="lp"></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+</div>
+
+<div class="img-right">
+<div class="container-buttons">
+	<p>
+          <a class="button-right" href="log-in.html" onclick="alert('正在为您打开极客联盟注册页面')" target="_blank">
+                            马上加入!
+          </a>
+    </p>
+
+</div>
+</div>
+<br><br><br>
+	<span class="spa-left"><i class="fa fa-gg-circle fa-2x">&nbsp;环保产品</i></span>
+
+
+<center><hr style=" height:2px;border:none;border-top:2px solid #ADACAC;" width="90%" /></center>
+<br>
+
+<div class="main-text">
+	<div class="text-left">
+		<span class="spa-title"><h3><strong>重磅<span class="text-red">推荐</span></strong></h3></span>
+		<br>
+		<img class="img-center" src="images/po1.jpg"/><br><br>
+		<p align="center">成交播报</p>
+		<hr width="90%" color="#ABABAB" align="center">
+		<marquee align="middle" direction="down" width="auto" height="60px">广东省 李女士 成功购买了微森林植物净化器<br><br>江苏省 陈女士 成功购买了微森林植物净化器<br><br>河北省 刘先生 成功购买了微森林植物净化器<br><br>云南省 郑先生 成功购买了微森林植物净化器</marquee>
+		
+	</div>
+	<div class="text-center">
+		<span class="spa2">厨房翻新改造，大师图层帮你省钱</span>
+		<p>&nbsp;&nbsp;任何东西用久了都会有旧的那一天,对于我们...</p><br>
+		<span class="spa2">无醛屋：小标识，大市场</span>
+		<p>&nbsp;&nbsp;如今几乎每个家庭都会有新房，然而一住新房...</p><br>
+		<span class="spa2">找产品，除了看重品牌，还要看重</span>
+		<p>&nbsp;&nbsp;从创新的角度出发去找产品，结果一定出人意...</p><br>
+		<center>
+			<table border="0px">
+				<tr><h4>推荐企业</h4>
+				</tr>
+				<tr>
+					<td><img src="images/qiye1.jpg"></td>
+					<td><img src="images/qiye2.jpg"></td>
+				</tr>
+				<tr>
+					<td><img src="images/qiye3.jpg"></td>
+					<td><img src="images/qiye4.jpg"></td>
+				</tr>
+				<tr>
+					<td><img src="images/qiye5.jpg"></td>
+					<td><img src="images/qiye6.jpg"></td>
+				</tr>
+			</table>
+		</center>
+	</div>
+	<div class="text-right">
+		<img class="img-center" src="images/po2.jpg">
+		<br><br><br>
+		<p>&nbsp;&nbsp;<strong>太阳能电子蜡烛灯</strong></p><br>
+		<pre>
+    这是一款绿色环保的创意产品，产用太阳能的电子蜡
+    烛灯，它已经完全达到了传统蜡烛火光视觉的效果，
+    将太阳能转化为烛光，留住阳光气息，营造浪漫氛围，
+    打造时尚低碳的生活方式。实现这一切只需要将蜡烛灯
+    放在阳光下放一会儿。
+		</pre>
+		<center>
+		<table>
+		<tr>
+			<td><img src="images/mar1.gif"></td>
+			<td rowspan="2"><img src="images/mar3.jpg"></td>
+		</tr>
+		<tr>
+			<td><img src="images/mar2.gif"></td>
+		</tr>
+		</table>
+		</center>
+	</div>
+	
+</div>
+
+<br><br><br>
+	<span class="spa-left"><i class="fa fa-institution fa-2x">&nbsp;最新政策</i></span>
+
+
+<center><hr style=" height:2px;border:none;border-top:2px solid #ADACAC;" width="90%" /></center>
+<br>
+
+<div class="main-art">
+	<div class="art-left">
+   		<img class="art-img1" src="images/zc1.jpg">
+   		<h3><span class="spa-title">新闻摘要</span></h3>
+    	<ul>
+    		<li>李干杰：十八大以来我国生态环境保护实现五个“前所未有”</li>
+   	 		<li>李干杰：未来生态环境保护有一系列新思想、新要求、新部署</li>
+    		<li>李干杰：加强生态文明建设与发展经济“正相关”</li>
+    		<li>李干杰：准备对重点地区行业等开展机动式点穴式专项督察</li>
+    		<li>李干杰：中央环保督察达到百姓点赞、解决问题的成效</li>
+    		<li>杨伟民：38次中央深改组会议中20次讨论生态文明体制改革</li>
+    		<li>杨伟民：生态文明方面激励机制还有待进一步建立</li>
+    		<li>李干杰：采取措施确保大气污染防治攻坚战取得明显成效</li>
+    	</ul>
+    </div>
+    	
+    <div class="art-right">
+  <center>
+    <h3>《习近平瞩望绿水青山》</h3><br>
+    	<video controls width="800" height="400" poster="images/poster1.png" src="videos/习近平瞩望绿水青山_超清.mp4">
+    	</video>
+    </center>
+    <br>
+    <div class="art-sld">
+    	<i class="fa fa-rss-square fa-1x">&nbsp;环保时评</i>
+    	<hr/><br>
+    	<h3><a href="artical/让垃圾分类告别“原地踏步”--人民网环保频道--人民网.mhtml" target="_blank">让垃圾分类告别“原地踏步”</a></h3>
+    	<p>&nbsp;&nbsp;&nbsp;&nbsp;近日，一则关于“垃圾分类试点多年仍在‘原地踏步’”的消息引发热议。记者在采访中也发现，不知道垃圾该如何分类，依然是困扰诸多居民的难题。</p>
+		<h3><a href="artical/让“共享快递盒”刮起绿色风--人民网环保频道--人民网.mhtml" target="_blank">让“共享快递盒”刮起绿色风</a></h3>
+		<p>&nbsp;&nbsp;&nbsp;&nbsp;一年一度的“双11”即将来临，人们不免担心，即将产生的巨量包裹会带来新一轮的资源浪费和环保压力。对此，快递业纷纷推出“绿色包装”，有的推广绿色快递袋，有的建议纸盒回收。</p>
+		<h3><a href="artical/“随手拍”为城市环境助力--人民网环保频道--人民网.mhtml" target="_blank">“随手拍”为城市环境助力</a></h3>
+		<p>&nbsp;&nbsp;&nbsp;&nbsp;在街上看到“脏乱差”怎么办？可以立即掏出手机，拍张照去“告状”。日前，广州市城管委透露，今后将建立一个综合的市容环境卫生监管系统，面向市民开放。</p>
+		<h3><a href="artical/只要有决心有行动，美丽中国可期--人民网环保频道--人民网.mhtml" target="_blank">只要有决心有行动，美丽中国可期</a></h3>
+		<p>&nbsp;&nbsp;&nbsp;&nbsp;“中国已经实现了由‘沙进人退’到‘人进沙退’的历史性转变”，十九大代表、国家林业局局长张建龙日前的这番话令人振奋。数据显示，五年来，我国治理沙化土地1.26亿亩，沙化土地年均缩减1980平方公里，联合国环境署不吝溢美，夸赞“中国是全球沙漠治理的典范”。</p>
+	</div>
+    
+    
+    </div>
+
+</div>
+<br><br><br>
+<span class="spa-left"><i class="fa fa-heartbeat fa-2x">&nbsp;公益行动</i></span>
+
+
+<center><hr style=" height:2px;border:none;border-top:2px solid #ADACAC;" width="90%" /></center>
+<br>
+<div class="main-artcpy">
+	<div class="artcpy-left">
+		<img class="artcpy-img" src="images/heart1.jpg"/>
+		<span class="arttxt-left"><h3>极客环保网公益活动“森林城市”正式启动</h3></span><br><br>
+		<span class="arttxt-right"><h4>一、活动目的：</h4></span>
+			<pre>
+			
+	
+					
+       为让广大网友认识大自然花草树木的作用，感恩大自然对
+       我们的恩赐，一次为抓手培养大家的爱心，让用户懂得感
+       恩，做一个有责任心的人，进一步培养广大用户的环境保
+       护意识，我网将开展“森林城市”的主题在线活动。
+     </pre>
+     <span class="arttxt-right"><h4>二、活动时间：</h4></span>
+			<pre>
+			
+					
+									
+         2017年10月-12月
+	   
+     </pre>
+     <span class="arttxt-right"><h4>三、活动要求：</h4></span>
+			<pre>
+			
+	
+					
+       各位网友只需要上传自己与大自然的亲密合照，合照不允
+       许通过ps处理，不允许添加水印，且必须为本人真实拍摄
+       此次活动最终解释权归极客环保网所有。
+       
+       
+     </pre>
+     <span class="arttxt-right"><h4>四、活动奖励：</h4></span>
+			<pre>
+			
+	
+					
+       为了使活动更具有可参与性，特设立评选机制，你所上传
+       的照片将会被公布在网上，并进行大众投票结束后排名将
+       会获得本平台精心准备的礼物（礼物价值不菲哦！！！）
+       礼物将会通过快递的方式送到你的手上。
+     </pre>
+		
+
+	</div>
+	<div class="artcpy-right">
+		<img src="images/heart4.jpg">
+		<h3>首届中国节能环保创新应用大赛在京启动</h3>
+		<p>&nbsp;&nbsp;&nbsp;&nbsp;7月21日，由中华环保联合会、中国节能协会、中国循环经济协会联合主办，徐州市人民政府承办的中国节能环保创新应用大赛（以下简称“大赛”）新闻发布会在人民大会堂举行。</p>
+		<img src="images/heart2.jpg">
+		
+	</div>
+
+</div>
+
+<br><br><br>
+<span class="spa-left"><i class="fa fa-area-chart fa-2x">&nbsp;信息公开</i></span>
+
+
+<center><hr style=" height:2px;border:none;border-top:2px solid #ADACAC;" width="90%" /></center>
+<br>
+<div class="main-last">
+	<div class="last-left">
+	<h3><i class="fa fa-cog fa-spin"></i>&nbsp;实时空气监测图</h3>
+	<iframe width="500px;" frameborder="1" height="700px" src="artical/PM2.5.jpg" scrolling="yes"></iframe>
+	
+		
+		
+	</div>
+	<div class="last-right">
+	<h3><i class="fa fa-link fa-1x">&nbsp;友情链接（素材来源）</i></h3>
+	<hr>
+	<a href="http://www.zhb.gov.cn/" target="_blank"><img title="中国环保部" src="images/smg5.png"></a>
+	<a href="http://www.cepf.org.cn/" target="_blank"><img title="中国环境保护基金会" src="images/smg12.jpg" width="50%"></a>
+	<a href="http://hbw.chinaenvironment.com/" target="_blank"><img title="环保网" src="images/smg8.png"/></a>
+	<a href="http://www.hbcp.net/" target="_blank"><img title="天目环保产品网" src="images/smg2.png"></a>
+	<a href="http://huanbao.jiameng.com/" target="_blank"><img title="环保加盟网" src="images/smg3.jpg"></a>
+	<a href="http://www.youku.com/" target="_blank"><img title="优酷视频" src="images/smg4.png"></a>
+	
+	<a href="http://env.people.com.cn/" target="_blank"><img title="人民网环保" src="images/smg6.png"></a>
+	<a href="http://www.redocn.com/" target="_blank"><img title="红动中国" src="images/smg7.png"></a>
+	
+	<a href="http://www.iteye.com/" target="_blank"><img title="iteye论坛" src="images/smg9.gif"></a>
+	<a href="http://www.w3school.com.cn" target="_blank"><img title="W3CSchool" src="images/smg10.jpg"></a>
+	<a href="http://www.duoxinqi.com/" target="_blank"><img title="多新奇网" src="images/smg1.png"></a>
+	<a href="http://gongyi.163.com/" target="_blank"><img title="网易公益" src="images/smg11.png"></a>
+	
+		
+		
+	</div>
+	
+</div>
+	<div id="main-footer">
+		<div class="fot-inside">
+			<div class="fot-wrapper">
+				<div class="fleft"><a rel="nofollow" href="index.html">极客环保网</a> designed by GeekLeague&nbsp; &nbsp; &nbsp;  Charge by <a title="李斯特" href="https://weibo.com/susmote?is_all=1" target="_blank" onclick="alert('即将为您跳转susmote的微博')">susmote</a></div> 
+				<div class="fright">Copyright © 2017  GeekLeague All Rights Reserved. 极客联盟 版权所有</div>
+			</div>
+		</div>
+	</div>
+	<script type="text/javascript">
+        $(function(){
+        })
+        function openDialog(){
+            document.getElementById('light').style.display='block';
+            document.getElementById('fade').style.display='block'
+        }
+        function closeDialog(){
+            document.getElementById('light').style.display='none';
+            document.getElementById('fade').style.display='none'
+        }
+		function openDiasign(){
+            document.getElementById('signin').style.display='block';
+            document.getElementById('fader').style.display='block'
+        }
+        function closeDiasign(){
+            document.getElementById('signin').style.display='none';
+            document.getElementById('fader').style.display='none'
+		}
+    </script>
+	
+</body>
+</html>

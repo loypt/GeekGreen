@@ -1,0 +1,38 @@
+@charset "utf-8";
+/* CSS Document */
+.tr{
+	text-align: center;
+	width: 500px;
+}
+td{
+	padding-left: 30px;
+	padding-right: 30px;
+	line-height: 30px;
+	text-indent: 33px;
+}
+.color1{
+	color: red;
+}
+.color2{
+	color:goldenrod;
+}
+#div{
+	text-align: center;
+}
+.contact{
+	position: fixed;
+	right: 0px;
+	top:300px;
+	z-index: 2;
+}
+img.qqcontact{
+	width:100px;
+	height: 98px;
+	cursor: pointer;  
+    transition: all 0.6s;
+	animation: Tada 3s both infinite;
+}
+.spa6{
+	text-align:center;
+	
+}

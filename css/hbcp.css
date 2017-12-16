@@ -1,0 +1,263 @@
+@charset "utf-8";
+/* CSS Document */		
+		.one{
+			text-align: center;
+			font-weight: bold;
+			color:#0907EB;
+			font-family:allan;
+			font-size: 60px;
+			background-image:url(images/树叶.jpg);
+		}
+        .img1{
+	        position: absolute;
+			top: 200px;
+			left: 200px;
+			width: 300px;
+			height: 300px;			
+        }
+        .img2{
+	        position: absolute;
+			top: 200px;
+			left: 770px;
+			width: 300px;
+			height: 300px;
+        }
+        .img3{
+	        position: absolute;
+			top: 2450px;
+			left: 200px;
+			width: 300px;
+			height: 300px;
+        }
+        .img4{
+	        position: absolute;
+			top: 750px;
+			left: 200px;
+			width: 300px;
+			height: 350px;
+        }               
+        .img5{
+	        position: absolute;
+			top: 750px;
+			left: 770px;
+			width: 300px;
+			height: 300px;
+        }
+        .img7{
+	        position: absolute;
+			top: 1350px;
+			left: 200px;
+			width: 300px;
+			height: 300px;
+        }
+        .img8{
+	        position: absolute;
+			top: 1350px;
+			left: 770px;
+			width: 300px;
+			height: 300px;
+        }
+        .img10{
+	        position: absolute;
+			top: 1880px;
+			left: 200px;
+			width: 300px;
+			height: 300px;
+        }
+        .img11{
+	        position: absolute;
+			top: 1880px;
+			left: 770px;
+			width: 300px;
+			height: 300px;
+        }
+        .img12{
+	        position: absolute;
+			top: 2450px;
+			left:770px;
+			width: 300px;
+			height: 300px;
+        }
+        .img13{
+	        position: absolute;
+			top: 3000px;
+			left:450px;
+			width: 200px;
+			height: 200px;
+        }
+        .img14{
+	        position: absolute;
+			top: 3000px;
+			left:650px;
+			width: 200px;
+			height:200px;
+        }
+        .z1{
+	        position: absolute;
+			top: 120px;
+			left: 250px;	
+			font-family:"黑体";
+			font-size: 40px;    /*空气净化器*/
+        }
+        .z2{
+	        position: absolute;
+			top: 480px;
+			left: 130px;	
+			font-family:"黑体";
+			font-size: 30px;   /*空气净化器作用*/
+        }
+        .z22{
+	        position: absolute;
+			top: 570px;
+			left: 130px;	
+			font-family:"黑体";
+			color: #FF0000;
+			font-size: 20px;   /*空气净化器注意*/
+		}
+        .z3{
+	        position: absolute;
+			top: 120px;
+			left: 870px;	
+			font-family:"黑体";
+			font-size: 40px;    /*环保袋*/
+        }
+        .z4{
+	        position: absolute;
+			top: 595px;
+			left: 720px;	
+			font-family:"黑体";
+			font-size: 20px;   /*好处*/
+        }
+        .z5{
+	        position: absolute;
+			top: 480px;
+			left: 720px;	
+			font-family:"黑体";
+			font-size: 30px;   /*类型*/
+        }
+        .z6{
+	        position: absolute;
+			top: 2370px;
+			left: 275px;	
+			font-family:"黑体";
+			font-size: 40px;    /*太阳能灯*/
+        }
+        .z7{
+	        position: absolute;
+			top: 2720px;
+			left: 100px;	
+			font-family:"黑体";
+			font-size: 35px;   
+        }
+        .z8{
+	        position: absolute;
+			top: 2780px;
+			left: 120px;	
+			font-family:"黑体";
+			font-size: 20px;   
+        }
+        .u1{
+	        position: absolute;
+			top: 670px;
+			left: 250px;	
+			font-family:"黑体";
+			font-size: 40px;    /*USB加湿器*/
+        }
+        .u2{
+	        position: absolute;
+			top: 1080px;
+			left: 120px;	
+			font-family:"黑体";
+			font-size: 25px;    
+        }
+        .u3{
+	        position: absolute;
+			top: 1040px;
+			left: 700px;	
+			font-family:"黑体";
+			font-size: 25px;    
+        }
+        .u4{
+	        position: absolute;
+			top: 670px;
+			left: 800px;	
+			font-family:"黑体";
+			font-size: 40px;   /*空气能热水器*/
+        }
+        .d1{
+	        position: absolute;
+			top: 1270px;
+			left: 250px;	
+			font-family:"黑体";
+			font-size: 40px;    /*USB加湿器*/
+        }
+        .d2{
+	        position: absolute;
+			top: 1625px;
+			left: 120px;	
+			font-family:"黑体";
+			font-size: 25px;    
+        }
+        .q1{
+	        position: absolute;
+			top: 1270px;
+			left: 840px;	
+			font-family:"黑体";
+			font-size: 40px;   /*氢能汽车*/
+        }
+        .q2{
+	        position: absolute;
+			top: 1625px;
+			left: 700px;	
+			font-family:"黑体";
+			font-size: 25px;    
+        }
+        .j1{
+	        position: absolute;
+			top: 1800px;
+			left: 290px;	
+			font-family:"黑体";
+			font-size: 40px;    /*节能灯*/
+        }
+        .j2{
+	        position: absolute;
+			top: 2170px;
+			left: 120px;	
+			font-family:"黑体";
+			font-size: 25px;    
+        }
+        .c1{
+	        position: absolute;
+			top: 1800px;
+			left: 850px;	
+			font-family:"黑体";
+			font-size: 40px;    /*齿接板*/
+        }
+        .c2{
+	        position: absolute;
+			top:2170px;
+			left: 700px;	
+			font-family:"黑体";
+			font-size: 25px;    /*齿接板*/
+        }
+        .g1{
+	        position: absolute;
+			top: 2370px;
+			left: 860px;	
+			font-family:"黑体";
+			font-size: 40px;    /*光触媒*/
+        }
+        .g2{
+	        position: absolute;
+			top: 2730px;
+			left: 690px;	
+			font-family:"黑体";
+			font-size: 25px;    
+        }
+        .w1{
+	 	    position: absolute;
+			top: 3200px;
+			left:430px;
+			font-family:"黑体";
+			font-size: 25px; 
+}

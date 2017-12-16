@@ -1,0 +1,111 @@
+/* CSS Document */
+#box1{ width:80%;
+       height:90%;
+	   border:2px;
+	   padding:0px 0px 0px 0px;
+	   text-align:center;
+	   margin:auto;
+	   background-image:url(../images/Top.jpg);
+	     
+	   }
+.photo{width:260px; 
+        height:200px;
+		 }	   
+#box3{ width:1000px;
+       height:0px;
+	   border:2px;
+	   padding:0px 0px 1400px 0px;
+	   text-align:center;
+	   margin:auto;
+	   border:1px solid #666666;
+	   }
+	   
+#box2{ width:1000px;
+       height:20px;
+	   }
+#footer{line-height:28px;
+		font-size:18px;
+		padding:0px 0px 0px 120px;
+		}
+.yewei{ text-align:center;
+        text-decoration:none;
+		display:inline;
+		color: #999999;}
+.yewei1{display:inline;
+        padding:0px 20px 0px 0px;
+		color:#999999;
+		font:Î¢ÈíÑÅºÚ;
+		}	
+		
+#youqinglianjie{ padding:0px 0px 0px 160px;
+       color:#000000;
+	   }
+	   			
+#link1{line-height:28px;
+		font-size:18px;
+		padding:0px 0px 0px 110px;
+		
+		
+		}
+
+
+.link2{
+        font:Î¢ÈíÑÅºÚ;
+		font-size:16px;
+		display:inline;
+		
+		}
+  
+  
+.link3{padding:0px 0px 0px 0px;
+        display:inline;
+		color:#333333;
+		text-decoration:none;
+		font:Î¢ÈíÑÅºÚ;
+		
+        }  
+.link4{text-decoration:none;
+        font:Î¢ÈíÑÅºÚ;
+		color: #000000;
+		}
+.wenzi{ color:#666666;
+		}	
+.biaoge{ text-overflow:ellipsis;/*ÎÄ±¾Òç³öÊ¡ÂÔ±ê¼Ç*/
+         overflow:hidden;/*Òþ²ØÒç³ö²¿·Ö*/
+		 }		
+.right{ width:335px;
+        height:60px;
+		}
+.xiangmu{width:126;
+         height:95;
+		 padding:0px 170px 0px 0px;
+		 border:1px; }
+		 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		

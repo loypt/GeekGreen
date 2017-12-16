@@ -1,0 +1,42 @@
+@charset "utf-8";
+/* CSS Document */
+
+#top {
+	
+	right:200px;
+	left:200px;
+	border: 2px solid #C0C834;
+	width:auto;
+	height: 50px;
+	position:absolute;
+}
+#body{width: auto;
+	  height: 1300px;
+	  border: 1px solid #309F36;
+	  position: absolute;
+	  left: 200px;
+	  right: 200px;
+	  top:61px;	
+}
+
+.box1{width: 350px;
+      height: 200px;
+      border: 1px solid #9F2325;
+	  float: left;
+	  margin-right:10px;
+	  
+}
+.box2{width: 210px;
+      height: 200px;
+      border: 1px solid #3919D9;
+      float: left;}
+
+
+
+
+
+
+
+
+
+

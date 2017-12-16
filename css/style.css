@@ -1,0 +1,171 @@
+@charset "utf-8";
+#top {
+	background:#F3EEEE;
+	
+	height:30px;
+	line-height:30px;
+ 	top:0px;
+	left: 0px;
+	right: 0px;
+
+}
+#bottom{
+	background:#151515;
+	position:fixed;
+	height: 100px;
+	bottom: 0px;
+	left: 0px;
+	right: 0px;
+	
+}
+#all{
+	position: absolute;
+	width:auto;
+	height:1500px;
+	background:#FFFFFF;
+	top:0px;
+	left:300px;
+	right:250px;
+	border: 1px solid #000000;
+	background: #CCE0E8;
+	
+}
+span.spa{
+	font-family:Autobahn;
+	font-size: 15px;
+	color: #0F6F3B;
+	text-align: right;
+	padding-left: 20px;
+}
+.spa1{
+	font-family:"方正舒体";
+	font-size: 20px;
+	color: #000000;
+	text-align: left;
+	top: 100%;
+	letter-spacing:10px;
+    padding-left: 50px;
+}
+.spa2{
+	font-family:"黑体";
+	font-size: 15px;
+	color: #000000;
+	text-align: right;
+	padding-left: 500px;
+}
+.spa3{
+	color: #000000;
+	font-size: 15px;
+	padding-left: 30px;
+}
+.spa4{
+	color: #000000;
+	font-size: 15px;
+	padding-left: 30px;
+}
+.spa5{
+	font-family:Autobahn;
+	color: #0F6F3B;
+	font-size: 15px;
+	right: 10px;
+	padding-left: 40px;
+}
+.spa6{
+	text-align:center;
+	
+}
+
+a.log{
+	color: #000000;
+	text-decoration: none;
+}
+a.log:hover{
+	color:#F96811;
+	text-decoration: underline;
+}
+img.qqcontact{
+	width:100px;
+	height: 98px;
+	cursor: pointer;  
+    transition: all 0.6s;
+	animation: Tada 3s both infinite;
+}
+img.qqcontact:hover{
+	transform: scale(2.0);
+}
+@keyframes Tada {
+    0% {
+        transform: scale(1);
+        transform: scale(1)
+    }
+
+    70%,73%{
+        transform: scale(0.9) rotate(-3deg);
+        transform: scale(0.9) rotate(-3deg)
+    }
+
+    77%,83%,90%,97%  {
+        transform: scale(1.1) rotate(3deg);
+        transform: scale(1.1) rotate(3deg)
+    }
+
+    80%,87%,93%{
+        transform: scale(1.1) rotate(-3deg);
+        transform: scale(1.1) rotate(-3deg)
+    }
+
+    100% {
+        transform: scale(2) rotate(0);
+        transform: scale(1) rotate(0)
+    }
+}
+
+
+.footer{
+	font-size: 10px;
+	left: 0px;
+	right:0px;
+	background:#00B271;
+	height: 50px;
+	width:auto;
+	color: #ffffff;
+	margin-bottom:0px;
+	text-align: center;
+}
+.contact{
+	position: fixed;
+	right: 0px;
+	top:300px;
+	z-index: 2;
+}
+a.footer{
+	color: #ffffff;
+	text-decoration:underline;
+}
+a.footer:hover{
+	color:#B8B1B1;
+	text-decoration: underline;
+}
+
+
+#zhengwen{
+	
+    position: absolute;
+	width:500px;
+	height: auto;
+	background:#green;
+	top:0px;
+	left: 100px;
+	right:100px;
+}
+
+
+
+
+
+
+
+
+
+
+

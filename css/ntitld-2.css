@@ -1,0 +1,155 @@
+@charset "utf-8";
+/* CSS Document */
+
+#top {
+	
+	right:200px;
+	left:200px;
+	border: 2px solid #C0C834;
+	width:auto;
+	height: 50px;
+	position:absolute;
+}
+#body{
+	
+	height: 1200px;
+	position: absolute;
+	left: 202px;
+	right: 200px;
+	top: 120px;
+}
+
+.box1{width: 550px;
+      height: 220px;
+      /*border: 1px solid #9F2325;*/
+	  margin-right:10px;
+	  float: left;
+	  
+}
+.box2{width: 300px;
+      height: 220px;
+      /*border: 1px solid #3919D9;*/
+      float:right;
+	 
+}
+.box3{float: right;
+      width: 285px;
+	  height: 200px;
+	  /*border: 1px solid #2AB974;*/
+	  
+	  text-align: center;
+
+
+}
+
+.box4{width:255px;
+      height: 220px;
+      /*border: 1px solid #19B548;*/
+	  float: left;
+
+}
+
+#footer{
+		font-size:18px;
+		padding:0px 0px 0px 0px;
+	    /*border: 1px solid #2CC92A;*/
+	   padding: 20px 0px 0px 0px;
+	    
+		
+}
+.footer1{ display: inline;
+         line-height:18px;
+
+
+
+}
+
+
+
+.footer2{font-size: 18px;
+         color: #423E3E;
+	     text-decoration: none;
+
+
+
+
+}
+
+#link1{
+		font-size:18px;
+		padding:0px 0px 0px 0px;
+		
+		
+}
+
+
+
+.link2{display: inline;
+	   
+	
+	
+	
+	
+}
+
+
+.link3{text-decoration: none;
+	   color: #837F7F;
+	   
+	
+	
+	
+	
+	
+}
+
+
+.biaoti{text-decoration: none;
+        font:微软雅黑;
+	    color: #000000;
+}
+.wenzi{font-size: 14px;
+       font: 微软yahei;
+        color: #5E5A5A;
+}
+.wenzi1{width: 150px;
+        height: 80px;
+        /*border: 1px solid #459DB3;*/
+        float: right;
+	    font: 微软yahei;
+	    color: #000000;
+
+}
+.photo{width: 260px;
+       height: 200px;
+}
+.photo1{width:140px;
+        height: 120px;
+}
+.last-footer{
+	float: right;
+	width:1285px;
+	left:195px;
+	right:100px;
+	position:relative;
+	bottom: 0px;
+}
+.contact{
+	position: fixed;
+	right: 0px;
+	top:300px;
+	z-index: 2;
+}
+img.qqcontact{
+	width:100px;
+	height: 98px;
+	cursor: pointer;  
+    transition: all 0.6s;
+	animation: Tada 3s both infinite;
+}
+.spa6{
+	text-align:center;
+	
+}
+
+

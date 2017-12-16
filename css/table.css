@@ -1,0 +1,9 @@
+@charset "utf-8";
+/* CSS Document */
+table{
+		line-height:30px;
+		border: 1px solid gray;
+	}
+	td{
+		padding: 10px
+	}
